@@ -1,0 +1,16 @@
+{
+  "title": "PEAC-Log",
+  "upload_type": "software",
+  "description": "Source code and reproducibility materials for PEAC-Log, a configuration-aware framework for log parsing.",
+  "creators": [
+    {"name": "Yuan, Jinhui", "affiliation": "Zhongyuan University of Technology"},
+    {"name": "Fang, Jiawei", "affiliation": "Zhongyuan University of Technology"},
+    {"name": "Wen, Kun", "affiliation": "Zhongyuan University of Technology"},
+    {"name": "Zhou, Hongwei", "affiliation": "Zhengzhou Information Science and Technology Institute"},
+    {"name": "Guan, Bin", "affiliation": "Zhongyuan University of Technology"}
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": ["log parsing", "AIOps", "positional entropy", "adaptive clustering"],
+  "version": "1.0.0"
+}

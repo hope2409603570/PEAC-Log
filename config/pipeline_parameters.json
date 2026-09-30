@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "default": {
+    "entropy_threshold": 1.5,
+    "max_check_positions": 10,
+    "min_similarity": 0.6,
+    "sample_size": 50
+  },
+  "datasets": {
+    "hdfs": {
+      "entropy_threshold": 1.0,
+      "max_check_positions": 15,
+      "min_similarity": 0.85
+    },
+    "hpc": {
+      "max_check_positions": 12,
+      "min_similarity": 0.65
+    },
+    "thunderbird": {
+      "max_check_positions": 12,
+      "min_similarity": 0.65
+    },
+    "hadoop": {
+      "entropy_threshold": 1.0,
+      "max_check_positions": 15,
+      "min_similarity": 0.65
+    },
+    "bgl": {
+      "max_check_positions": 12,
+      "min_similarity": 0.88
+    },
+    "healthapp": {
+      "min_similarity": 0.85
+    },
+    "openssh": {
+      "max_check_positions": 12,
+      "min_similarity": 0.65
+    },
+    "openstack": {
+      "max_check_positions": 12,
+      "min_similarity": 0.75
+    },
+    "spark": {
+      "max_check_positions": 12,
+      "min_similarity": 0.65
+    },
+    "mac": {
+      "entropy_threshold": 2.5,
+      "max_check_positions": 12,
+      "min_similarity": 0.5
+    },
+    "apache": {},
+    "linux": {},
+    "zookeeper": {
+      "max_check_positions": 12,
+      "min_similarity": 0.65
+    }
+  }
+}

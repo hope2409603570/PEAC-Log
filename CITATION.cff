@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use PEAC-Log, please cite the accompanying paper and this software release."
+title: "PEAC-Log"
+type: software
+authors:
+  - family-names: "Yuan"
+    given-names: "Jinhui"
+  - family-names: "Fang"
+    given-names: "Jiawei"
+  - family-names: "Wen"
+    given-names: "Kun"
+  - family-names: "Zhou"
+    given-names: "Hongwei"
+  - family-names: "Guan"
+    given-names: "Bin"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/hope2409603570/PEAC-Log"
+url: "https://github.com/hope2409603570/PEAC-Log"
+keywords:
+  - log parsing
+  - AIOps
+  - positional entropy
+  - adaptive clustering
+abstract: >-
+  A configuration-aware log-parsing framework using positional-entropy
+  bucketing, adaptive complete-linkage clustering, iterative LCS template
+  extraction, and cache-assisted replay.
